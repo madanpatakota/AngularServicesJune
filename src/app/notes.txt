@@ -1,0 +1,17 @@
+
+
+what is the service?
+
+service is a typescript class which contains the businesslogic . by using the busines logic we can regtun the data..
+
+
+
+
+i want to test one more service in the same component
+means i want two services.
+
+
+
+1  concepts pdf
+2. git 
+3. skype

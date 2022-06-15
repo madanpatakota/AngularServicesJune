@@ -1,0 +1,25 @@
+<div class="container" style="margin:50px">
+    <h3>Component One</h3>
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>
+            City
+          </th>
+          <th>
+            Job
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of CustomersData">
+          <td>{{item.Name}}</td>
+          <td>{{item.Location}}</td>
+          <td>{{item.Job}}</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>

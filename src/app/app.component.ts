@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularServicesJune';
+
+  //Taking the list of objects
+  
 }
