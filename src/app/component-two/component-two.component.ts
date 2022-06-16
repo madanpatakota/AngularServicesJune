@@ -20,7 +20,9 @@ export class ComponentTwoComponent implements OnInit {
   CustomersData:any = [];
   ngOnInit(): void {
     //let obCustomer = new Customer(); // I am (Madan) creating the object manually....
-    this.CustomersData = this.refCustomer.getCustomers();
+    this.CustomersData = this.refCustomer.getCustomers("");
+
+
   }
 
   

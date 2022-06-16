@@ -10,8 +10,22 @@ service is a typescript class which contains the businesslogic . by using the bu
 i want to test one more service in the same component
 means i want two services.
 
-
+R3InjectorError(AppModule)[LogsService -> LogsService -> LogsService]
+NO provider found
 
 1  concepts pdf
 2. git 
 3. skype
+
+
+I want to pass the data to the CompA to CompB via service.
+
+
+am i audiable?
+
+
+A service can contain the referece of the another servcie.....
+
+Customer service can contain the login service reference...
+
+Component A contains the 2 serices i.e. customer and login
